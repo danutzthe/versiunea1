@@ -1,10 +1,6 @@
-<?php
-use yii\helpers\Html;
 
-/* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
+
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="padding-left: 0; padding-right: 60px;">
         <h1 class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="float: left; padding-left: 0; padding-right: 0; text-align: left;"><strong>Descrierea Proiectului</strong></h1>
         <div class="row" style="margin: 10px 0;">
@@ -83,4 +79,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </ol>
         </div>
     </div>
+
+
+</div>
 

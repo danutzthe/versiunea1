@@ -71,11 +71,6 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-    public function  actionDescriereProiect()
-    {
-        return $this->render('descriere-proiect');
-    }
-
     public  function actionPartenerUnap()
     {
         $this->layout = "parteneri";
@@ -100,5 +95,49 @@ class SiteController extends Controller
         return $this->render('partener-adl');
     }
 
+    public function  actionDescriereProiect()
+    {
+        return $this->render('descriere-proiect');
+    }
+
+    public  function actionDetaliiEtapa1()
+    {
+        return $this->render('detalii-etapa-1');
+    }
+
+    public  function actionDetaliiEtapa2()
+    {
+        return $this->render('detalii-etapa-2');
+    }
+
+    public  function actionDetaliiEtapa3()
+    {
+        return $this->render('detalii-etapa-3');
+    }
+
+    public function actionListaDePersonal()
+    {
+        return $this->render('lista-de-personal');
+    }
+
+    public  function actionResurse()
+    {
+        return $this->render('resurse');
+    }
+    
+    public function actionInstrumenteSiMetode()
+    {
+        return $this->render('instrumente-si-metode');
+    }
+
+    public  function  actionConferinte()
+    {
+        return $this->render('conferinte');
+    }
+
+    public function actionContact()
+    {
+        return $this->render('contact');
+    }
 
 }

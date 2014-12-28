@@ -1,10 +1,4 @@
-<?php
-use yii\helpers\Html;
 
-/* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
 
 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0;">
@@ -12,7 +6,7 @@ $this->params['breadcrumbs'][] = $this->title;
             Partener<br><strong>Administratia Nationala de Meteorologie</strong>
         </h1>
 
-        <a href="http://www.meteoromania.ro/anm/?lang=ro_ro" target="_blank"><img src="<?php echo Yii::$app->request->baseUrl . "/assets/img/meteo.jpg" ?>" style="float: right; margin-top: 20px; width: 128px; height: 100px;"></a>
+        <a href="http://www.meteoromania.ro/anm/?lang=ro_ro" target="_blank"><img src="<?php echo Yii::$app->request->baseUrl . "/assets/img/meteo.jpg" ?>" style="float: right; margin-top: 20px;"></a>
 
         <p style="margin: 145px 0 10px 0; text-align: justify; text-indent: 30px; padding-left: 0; padding-right: 0;">
             <b>Administrația Naționala de Meteorologie din România (Meteo România)</b> a fost înfiinţată în

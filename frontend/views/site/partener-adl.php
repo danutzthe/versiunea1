@@ -1,10 +1,4 @@
-<?php
-use yii\helpers\Html;
 
-/* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0;">
         <h1 class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-left: 0; padding-right: 0; text-align: left;">

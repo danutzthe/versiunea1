@@ -61,19 +61,19 @@ AppAsset::register($this);
                         ],
                         ['label' => 'DETALII PROIECT', 'url' => ['#'], 'items' => [
                             ['label' => 'DESCRIERE PROIECT', 'url' => ['site/descriere-proiect']],
-                            ['label' => 'ETAPA 1', 'url' => ['/site/index']],
-                            ['label' => 'ETAPA 2', 'url' => ['/site/index']],
-                            ['label' => 'ETAPA 3', 'url' => ['/site/index']],
-                            ['label' => 'ECHIPA DE CERCETARE', 'url' => ['/site/index']]
+                            ['label' => 'ETAPA 1', 'url' => ['/site/detalii-etapa-1']],
+                            ['label' => 'ETAPA 2', 'url' => ['/site/detalii-etapa-2']],
+                            ['label' => 'ETAPA 3', 'url' => ['/site/detalii-etapa-3']],
+                            ['label' => 'ECHIPA DE CERCETARE', 'url' => ['/site/lista-de-personal']]
                         ],'options'=>['class'=>'inner-menu'],
                         ],
                         ['label' => 'RESURSE',  'items' => [
-                            ['label' => 'LINKURI UTILIE', 'url' => ['/site/index']],
-                            ['label' => 'INSTRUMENTE SI METODE', 'url' => ['/site/index']],
-                            ['label' => 'CONFERINTE', 'url' => ['/site/index']]
+                            ['label' => 'LINKURI UTILIE', 'url' => ['/site/resurse']],
+                            ['label' => 'INSTRUMENTE SI METODE', 'url' => ['/site/instrumente-si-metode']],
+                            ['label' => 'CONFERINTE', 'url' => ['/site/conferinte']]
                         ],'options'=>['class'=>'inner-menu'],
                         ],
-                        ['label' => 'CONTACT', 'url' => ['/site/index'],'options'=>['class'=>'last-menu'],
+                        ['label' => 'CONTACT', 'url' => ['/site/contact'],'options'=>['class'=>'last-menu'],
                         ],
                     ];
 

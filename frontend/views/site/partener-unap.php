@@ -1,17 +1,11 @@
-<?php
-use yii\helpers\Html;
 
-/* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0;">
         <h1 class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-left: 0; padding-right: 0; text-align: left;">
             Partener<br><strong>Universitatea Nationala de Aparare "Carol I"</strong>
         </h1>
 
-        <a href="http://www.unap.ro/index.php/ro/" target="_blank"><img src="<?php echo Yii::$app->request->baseUrl . "/assets/img/unap.jpg" ?>" style="float: right; margin-top: 20px; width: 128px; height: 100px;"></a>
+        <a href="http://www.unap.ro/index.php/ro/" target="_blank"><img src="<?php echo Yii::$app->request->baseUrl . "/assets/img/unap.jpg" ?>" style="float: right; margin-top: 20px;"></a>
 
         <p style="margin: 145px 0 10px 0; text-align: justify; text-indent: 30px; padding-left: 0; padding-right: 0;">
             Universitatea a fost fondată în anul 1889, de către generalul Ștefan Fălcoianu, fiind a
