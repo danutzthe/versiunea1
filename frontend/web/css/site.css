@@ -22,7 +22,6 @@ body {
     padding: 70px 15px 20px;
 }
 
-
 .header{
     background:url('../assets/img/header_bg_1.jpg') repeat-x;;
     height: 148px; text-align: center; padding-top: 25px;
@@ -54,6 +53,12 @@ footer {
     margin-right: auto;
 }
 
+.navbar {
+    min-height: 37px !important;
+    border:0;
+    background-color: #ffffff;
+}
+
 .navbar .navbar-nav li a {
     color: #2bafec;
     padding: 0 40px 0;
@@ -66,11 +71,7 @@ footer {
 .navbar-nav li.inner-menu {
     border-right: 1px solid #CCC;
 }
-.navbar-nav {
-    position: relative;
-    top: -8px;
-    left: 50px;
-}
+
 #wrapper {
     min-height: 100%;
     height: auto !important;
@@ -81,9 +82,7 @@ footer {
     width: 100%;
     max-width: 100%;
 }
-.pull-left {
-    float: left;
-}
+
 .pull-left {
     float: left !important;
 }

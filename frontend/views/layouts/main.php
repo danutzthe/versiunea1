@@ -28,7 +28,7 @@ AppAsset::register($this);
     <div class="wrap">
         <header class="header2">
             <div class="row" >
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="height: 125px; padding-left: 0; padding-right: 0;">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="height: 108px; padding-left: 0; padding-right: 0;">
                         <?php
                         $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/logo.png", array( "alt" => 'Medgame', "title" => 'Medgame'));
                         echo Html::a($img, array('site/index'));
@@ -41,12 +41,12 @@ AppAsset::register($this);
             </div>
 
             <div class="row" >
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style=" padding-left: 0; padding-right: 0;">
-                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="padding-left: 0; padding-right: 0;">
+
                         <?php
                         NavBar::begin([
                             'options' => [
-                                'class' => ' navbar-nav navbar-center',
+                                'class' => 'navbar-nav navbar-center navbar-default center',
                             ],
                         ]);
                         $menuItems = [
@@ -78,42 +78,44 @@ AppAsset::register($this);
                         ];
 
                         echo Nav::widget([
-                            'options' => ['class' => 'navbar-nav navbar-left'],
+                            'options' => ['class' => 'navbar-nav navbar-center'],
                             'items' => $menuItems,
                         ]);
                         NavBar::end();
                         ?>
-            </div> </div> </div>
+            </div> </div>
         </header>
 
 
         <div class="container" id="wrapper" style="padding-top: 148px" class="center">
-            <?= $content ?>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
+                <?= $content ?>
+            </div>
 
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-left: 0; padding-right: 0;">
                 <h2>Parteneri</h2>
-                <div class="partner-item-vertical">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('Universitatea Nationala de Aparare </br> "Carol I"', array('site/partener-unap'));?> </h3>
                     <?php
                         $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/unap.jpg", array( "style"=>"height: 72px; width: 105px;", "class"=>"center"));
                         echo Html::a($img, array('site/partener-unap'));
                     ?>
                 </div>
-                <div class="partner-item-vertical">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('METEO"', array('site/partener-meteo'));?></h3>
                     <?php
                         $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/meteo.jpg", array( "style"=>"height: height: 57px; width: 180px", "class"=>"center"));
                         echo Html::a($img, array('site/partener-meteo'));
                     ?>
                 </div>
-                <div class="partner-item-vertical">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('Ascendia"', array('site/partener-meteo'));?></h3>
                     <?php
                         $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/ascendia.png", array( "style"=>"height: 105px; width: 105px;", "class"=>"center"));
                         echo Html::a($img, array('site/partener-ascendia'));
                     ?>
                 </div>
-                <div class="partner-item-vertical" style="border-bottom: none;">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical" style="border-bottom: none;">
                     <h3><?php echo Html::a('Advanced Distributed Learning Association"', array('site/partener-meteo'));?></h3>
                     <?php
                         $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/adlnet.png", array( "style"=>"height: 82px; width: 105px;", "class"=>"center"));

@@ -28,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
     <header class="header2">
         <div class="row" >
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="height: 125px; padding-left: 0; padding-right: 0;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="height: 108px; padding-left: 0; padding-right: 0;">
                 <?php
                 $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/logo.png", array( "alt" => 'Medgame', "title" => 'Medgame'));
                 echo Html::a($img, array('site/index'));
@@ -41,12 +41,11 @@ AppAsset::register($this);
         </div>
 
         <div class="row" >
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style=" padding-left: 0; padding-right: 0;">
-                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="padding-left: 0; padding-right: 0;">
                     <?php
                     NavBar::begin([
                         'options' => [
-                            'class' => ' navbar-nav navbar-center',
+                            'class' => ' navbar-nav navbar-center navbar-default center',
                         ],
                     ]);
                     $menuItems = [
@@ -78,12 +77,12 @@ AppAsset::register($this);
                     ];
 
                     echo Nav::widget([
-                        'options' => ['class' => 'navbar-nav navbar-left'],
+                        'options' => ['class' => 'navbar-nav navbar-center'],
                         'items' => $menuItems,
                     ]);
                     NavBar::end();
                     ?>
-                </div> </div> </div>
+                </div> </div>
     </header>
 
 
