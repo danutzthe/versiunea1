@@ -20,7 +20,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0; margin: 0;">
             <h3 style="text-align: left; margin: 30px 0 10px 0; font-weight: bold;">Knowledge Management System pentru studiile Serious Games</h3>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
-                <a href="http://www.galanoe.eu/" target="_blank"><img style="width: 478px; height: 75px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/GALA_logo.png'?>" alt="GALA - Network of Excellence for Serious Games"></a>
+                <a href="http://www.galanoe.eu/" target="_blank"><img class="img-responsive" style="width: 478px; height: 75px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/GALA_logo.png'?>" alt="GALA - Network of Excellence for Serious Games"></a>
             </p>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
                 <a href="http://studies.seriousgamessociety.org/" target="_blank">
@@ -33,7 +33,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0; margin: 0;">
             <h3 style="text-align: left; margin: 30px 0 10px 0; font-weight: bold;">Learning Mechanics-Game Mechanics (LM-GM)</h3>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
-                <a href="http://services.seriousgamessociety.org/" target="_blank"><img style="width: 478px; height: 75px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/SGWeb_Catalog.png'?>" alt="Learning Mechanics-Game Mechanics (LM-GM)"></a>
+                <a href="http://services.seriousgamessociety.org/" target="_blank"><img class="img-responsive" style="width: 478px; height: 75px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/SGWeb_Catalog.png'?>" alt="Learning Mechanics-Game Mechanics (LM-GM)"></a>
             </p>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
                 <a href="http://services.seriousgamessociety.org/" target="_blank">
@@ -46,7 +46,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0; margin: 0;">
             <h3 style="text-align: left; margin: 30px 0 10px 0; font-weight: bold;">Serious Games Reusability Point of Reference (SGREF) </h3>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
-                <a href="http://services.seriousgamessociety.org/" target="_blank"><img style="width: 300px; height: 200px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/SGREF_1.png'?>" alt="Serious Games Reusability Point of Reference (SGREF)"></a>
+                <a href="http://services.seriousgamessociety.org/" target="_blank"><img class="img-responsive" style="width: 300px; height: 200px;" src="<?php echo Yii::$app->request->baseUrl . '/assets/img/SGREF_1.png'?>" alt="Serious Games Reusability Point of Reference (SGREF)"></a>
             </p>
             <p style="margin: 10px 0; text-align: left; padding-left: 0; padding-right: 0;">
                 <a href="http://www.sgref.com/" target="_blank">

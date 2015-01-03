@@ -12,7 +12,7 @@ use yii\helpers\Html;
 
             <div style="margin-top: 20px;">
                 <h3 style="text-align: center;">Proiect <strong>MedGame</strong></h3>
-                <p> <?php echo Html::a('Detalii proiect', array('site/about'), array('class' => 'btn btn-primary btn-lg center')); ?> </p>
+                <p> <?php echo Html::a('Detalii proiect', array('site/descriere-proiect'), array('class' => 'btn btn-primary btn-lg center')); ?> </p>
             </div>
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left" style="padding: 10px 0;">
@@ -37,16 +37,16 @@ use yii\helpers\Html;
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center" style="margin-bottom: 10px; padding-left: 0; padding-right: 0;">
             <?php
             $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/unap.jpg", array( "style"=>"height: 80px; width: 116px;", "class"=>"center"));
-            echo Html::a($img, array('site/about'), array("style"=>"margin: 10px;"));
+            echo Html::a($img, array('site/partener-unap'), array("style"=>"margin: 10px;"));
 
             $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/meteo.jpg", array( "style"=>"height: 57px; width: 180px;", "class"=>"center"));
-            echo Html::a($img, array('site/about'), array("style"=>"line-height: 77px; margin: 10px;"));
+            echo Html::a($img, array('site/partener-meteo'), array("style"=>"line-height: 77px; margin: 10px;"));
 
             $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/ascendia.png", array( "style"=>"height: 80px; width: 80px;", "class"=>"center"));
-            echo Html::a($img, array('site/about'), array("style"=>"margin: 10px;"));
+            echo Html::a($img, array('site/partener-ascendia'), array("style"=>"margin: 10px;"));
 
             $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/adlnet.png", array( "style"=>"height: 80px; width: 102px;", "class"=>"center"));
-            echo Html::a($img, array('site/about'), array("style"=>"margin: 10px;"));
+            echo Html::a($img, array('site/partener-adl'), array("style"=>"margin: 10px;"));
             ?>
 
         </div>

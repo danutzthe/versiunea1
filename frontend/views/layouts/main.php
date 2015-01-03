@@ -97,28 +97,28 @@ AppAsset::register($this);
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('Universitatea Nationala de Aparare </br> "Carol I"', array('site/partener-unap'));?> </h3>
                     <?php
-                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/unap.jpg", array( "style"=>"height: 72px; width: 105px;", "class"=>"center"));
+                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/unap.jpg", array( "style"=>"height: 72px; width: 105px; margin-bottom:20px", "class"=>"center"));
                         echo Html::a($img, array('site/partener-unap'));
                     ?>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('METEO"', array('site/partener-meteo'));?></h3>
                     <?php
-                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/meteo.jpg", array( "style"=>"height: height: 57px; width: 180px", "class"=>"center"));
+                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/meteo.jpg", array( "style"=>"height: height: 57px; width: 180px; margin-bottom:20px", "class"=>"center"));
                         echo Html::a($img, array('site/partener-meteo'));
                     ?>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical">
                     <h3><?php echo Html::a('Ascendia"', array('site/partener-meteo'));?></h3>
                     <?php
-                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/ascendia.png", array( "style"=>"height: 105px; width: 105px;", "class"=>"center"));
+                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/ascendia.png", array( "style"=>"height: 105px; width: 105px; margin-bottom:20px", "class"=>"center"));
                         echo Html::a($img, array('site/partener-ascendia'));
                     ?>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 partner-item-vertical" style="border-bottom: none;">
                     <h3><?php echo Html::a('Advanced Distributed Learning Association"', array('site/partener-meteo'));?></h3>
                     <?php
-                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/adlnet.png", array( "style"=>"height: 82px; width: 105px;", "class"=>"center"));
+                        $img = Html::img(Yii::$app->request->baseUrl . "/assets/img/adlnet.png", array( "style"=>"height: 82px; width: 105px; margin-bottom:20px", "class"=>"center"));
                         echo Html::a($img, array('site/partener-adl'));
                     ?>
                 </div>

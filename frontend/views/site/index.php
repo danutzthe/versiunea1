@@ -6,7 +6,7 @@ use yii\helpers\Html;
 
 <div class="row" style="margin-left: 0; margin-right: 0;">
     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 center" style="padding-left: 0; padding-right: 0;">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left" style="padding-left: 0; padding-right: 0;">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-left" style="padding-left: 0; padding-right: 0;">
             <h1 style="width: 100%;">Centrul Virtual pentru Educarea şi Instruirea cetăţeniilor în situaţii de
                 dezastre naturale prin intermediul <strong>Serious Games</strong></h1>
 
@@ -15,7 +15,7 @@ use yii\helpers\Html;
                 <p> <?php echo Html::a('Detalii proiect', array('site/descriere-proiect'), array('class' => 'btn btn-primary btn-lg center')); ?> </p>
             </div>
         </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left" style="padding: 10px 0;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left" style="padding: 10px 0;">
             <?php echo Html::img(Yii::$app->request->baseUrl . "/assets/img/slider1.jpg", array( 'class'=> "pull-right img-responsive")); ?>
         </div>
     </div>
